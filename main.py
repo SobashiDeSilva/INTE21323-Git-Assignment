@@ -1,6 +1,9 @@
-# Simple addition function for INTE 21323
-def add_numbers(num1, num2):
-    return num1 + num2
+def add_numbers(a, b):
+    return a + b
 
-if __name__ == "__main__":
-    print("The sum of 10 and 20 is:", add_numbers(10, 20))
+
+def subtract_numbers(a, b):
+    return a - b
+
+print("Addition Result:", add_numbers(10, 5))
+print("Subtraction Result:", subtract_numbers(10, 5))
